@@ -1,5 +1,12 @@
-body {
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
   background-color: #EEEEEE;
+  width: 100%;
+  height: 100%;
 }
 
 .border1 {
