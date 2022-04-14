@@ -1,0 +1,149 @@
+body{
+	background-color: 	#EEEEEE;
+}
+.border1{
+	margin: 0 auto;
+	width: 80%;
+	height: 80px;
+	.col-design{
+		border-bottom-left-radius: 20px;
+		border-top-left-radius: 20px;
+	}
+	.col-x{	
+		margin: -260px auto;
+		z-index: 3;
+		position: relative;
+		background-color: #EEEEEE;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		.title{
+			font-family: Calibri, sans-serif; 
+			font-size: 25px;
+			color: #686868;
+			margin-top: 18%;
+		}
+		.name{
+			font-weight: 800!important;
+			font-family:round;
+			font-size: calc(3rem + 1.5vw);
+			color: #AB1CE4;
+		}
+		.content{
+			color: #888888;
+			font-size: 20px;
+			
+		}
+		.button{
+			.start{
+				background-color: #A21AD9;
+				width: 75%;
+				border-radius: 50px;
+				box-shadow: 0 0.125rem 0.25rem #A21AD9 !important;
+				font-weight: 500;
+			}
+			.download{
+				width: 75%;
+				border-radius: 50px;
+				box-shadow: 0 0.125rem 0.25rem #A6A6A6  !important;
+				color: #A21AD9;
+				font-weight: 500;
+			}
+		}
+	}
+	.bg-img{
+		background-image: url(../../img/futurecity.jpg);
+		border-bottom-right-radius: 20px;
+		border-top-right-radius: 20px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+	}
+}
+#hinhchunhat {
+	width: 100%;
+	height: 100%;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	opacity:0.5;
+	background: #AB1CE4;
+	z-index: 1;
+	position: relative;
+}
+#hinhtamgiac-trentrai {
+	width: 0;
+	height: 0;
+	border-top: 320px solid #AB1CE4;
+	border-right: 380px solid transparent;
+	z-index: 1;
+	position: relative;
+  }
+#hinhtamgiac-duoiphai {
+	width: 0;
+	height: 0;	
+	position:absolute;
+	right: 0;
+	bottom: 0;
+	border-right: 320px solid #AB1CE4;
+	border-top: 380px solid transparent;
+	z-index: 1;
+
+}
+.index{
+	z-index: 5;
+	position: relative;
+	color:white;
+	margin:-500px auto;
+	text-align: center;
+	padding: 1.2rem;
+}
+
+@font-face {
+	font-family:Round;
+	src: url(../../fonts/VarelaRound-Regular.ttf);
+}
+@media (min-width:731px) and (max-width: 1023){
+	.col-design{
+		border-radius: 20px;
+		max-height: 500px;
+	}
+	.start{
+		font-size: 18px!important;
+	}
+	.download{
+		font-size: 18px!important;
+	}
+}
+@media (max-width:730px){
+	.border1{
+		max-width: 70%;
+		margin-top: 35px;
+		padding-left:0;
+		.col-design{
+			padding-top: 30px!important;
+			border-radius: 20px;
+			max-height: 650px;
+		}
+	}
+	.bg-img{
+		visibility: hidden;
+	}
+	.start{
+		font-size: 17px!important;
+	}
+	.download{
+		font-size: 17px!important;
+	}
+	#hinhtamgiac-duoiphai {
+		width: 0;
+		height: 0;	
+		position:absolute;
+		right: 0;
+		bottom: 0;
+		border-right: 320px solid #AB1CE4;
+		border-top: 380px solid transparent;
+		z-index: 1;
+	}
+	.content{
+		font-size: 18px!important;
+	}
+}
