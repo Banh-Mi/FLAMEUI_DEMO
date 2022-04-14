@@ -34,7 +34,7 @@ body {
 .col-x .title {
   font-family: Calibri, sans-serif;
   font-size: 25px;
-  color: #686868;
+  color: #999797;
   margin-top: 18%;
 }
 
@@ -51,6 +51,7 @@ body {
 }
 
 .col-x .button .start {
+  font-size: 17px;
   background-color: #A21AD9;
   width: 75%;
   border-radius: 50px;
@@ -60,6 +61,7 @@ body {
 }
 
 .col-x .button .download {
+  font-size: 17px;
   width: 75%;
   border-radius: 50px;
   -webkit-box-shadow: 0 0.125rem 0.25rem #A6A6A6  !important;
@@ -110,7 +112,7 @@ body {
 
 .border2 {
   visibility: hidden;
-  margin: 0 auto;
+  margin: -5% auto;
   width: 80%;
   height: 80px;
   z-index: 4;
@@ -126,17 +128,17 @@ body {
 @media (min-width: 731px) and (max-width: 1023) {
   .col-design {
     border-radius: 20px;
-    max-height: 500px;
+    max-height: 400px;
   }
   .start {
-    font-size: 18px !important;
+    font-size: 14px !important;
   }
   .download {
-    font-size: 18px !important;
+    font-size: 14px !important;
   }
 }
 
-@media (max-width: 730px) {
+@media (max-width: 730px) and (min-width: 410px) {
   .border1 {
     visibility: hidden;
   }
@@ -153,6 +155,45 @@ body {
   }
   #hinhtamgiac-duoiphai {
     visibility: hidden;
+  }
+  .title {
+    font-size: 20px !important;
+  }
+  .name {
+    font-size: 45px !important;
+  }
+}
+
+@media (max-width: 410px) {
+  .border1 {
+    visibility: hidden;
+  }
+  .border2 {
+    visibility: inherit;
+  }
+  .border2 .col-design {
+    margin: -300px auto !important;
+    padding-top: 5px;
+    padding-bottom: 60px;
+    border-radius: 10px !important;
+  }
+  #hinhtamgiac-trentrai {
+    visibility: hidden;
+  }
+  #hinhtamgiac-duoiphai {
+    visibility: hidden;
+  }
+  .start {
+    font-size: 15px !important;
+  }
+  .download {
+    font-size: 15px !important;
+  }
+  .name {
+    font-size: 35px !important;
+  }
+  .title {
+    font-size: 18px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
